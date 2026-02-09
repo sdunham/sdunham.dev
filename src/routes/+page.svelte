@@ -21,10 +21,28 @@
 				Like many developers, my personal website has been neglected. 
 				This placeholder is a gentle reminder that I should probably do something about that.
 			</p>
+		</section>
 
-			<div class="contact">
-				<p>Get in touch: <a href="mailto:dunham.scott@gmail.com">dunham.scott@gmail.com</a></p>
-			</div>
+		<section class="tools">
+			<h2>Tools</h2>
+			<ul>
+				<li>
+					<a href="https://idp.sdunham.dev" target="_blank" rel="noopener noreferrer">
+						Individual Development Plan Builder
+					</a>
+					<span class="tool-description">Soccer coaching tool</span>
+				</li>
+				<li>
+					<a href="https://xle-to-csv.sdunham.dev" target="_blank" rel="noopener noreferrer">
+						XLE to CSV Converter
+					</a>
+					<span class="tool-description">Convert Solinst Levelogger XLE files to CSV</span>
+				</li>
+			</ul>
+		</section>
+
+		<section class="contact">
+			<p>Get in touch: <a href="mailto:dunham.scott@gmail.com">dunham.scott@gmail.com</a></p>
 		</section>
 	</div>
 </main>
@@ -89,6 +107,46 @@
 		color: #6c757d;
 		font-style: italic;
 		font-size: 1rem;
+	}
+
+	.tools {
+		margin-top: 2.5rem;
+		padding-top: 2rem;
+		border-top: 1px solid #e9ecef;
+	}
+
+	.tools h2 {
+		margin: 0 0 1rem 0;
+		font-size: 1.5rem;
+		font-weight: 600;
+		color: #1a1a1a;
+	}
+
+	.tools ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.tools li {
+		margin-bottom: 1rem;
+	}
+
+	.tools li:last-child {
+		margin-bottom: 0;
+	}
+
+	.tools a {
+		font-size: 1.125rem;
+		font-weight: 500;
+		display: block;
+		margin-bottom: 0.25rem;
+	}
+
+	.tool-description {
+		color: #6c757d;
+		font-size: 0.875rem;
+		display: block;
 	}
 
 	.contact {
